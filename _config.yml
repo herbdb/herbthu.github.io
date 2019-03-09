@@ -13,7 +13,7 @@ name                     : &name "Dongbiao He"
 description              : &description "A reseacher"
 url                      : https://herbdb.github.io/herbthu.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "herbdb/herbthu.github.io"
+repository               : "herbdb.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Dongbiao He"
   avatar           : "herb.jpg"
-  bio              : "A Phd Student in Tsinghua"
+  bio              : "Phd Student, Tsinghua University"
   location         : "Beijing"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
