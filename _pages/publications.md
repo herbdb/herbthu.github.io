@@ -6,7 +6,7 @@ author_profile: true
 
 ## Deep Learning
 
-<b>[Towards Tile Based Distribution Simulation in Immersive Video Streaming]((https://herbdb.github.io/herbthu.github.io/files/sigar.pdf))</b> <br>
+<b>[Towards Tile Based Distribution Simulation in Immersive Video Streaming]((https://herbdb.github.io/herbthu.github.io/publication/2017-10-01-paper-title-number-3))</b> <br>
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal and J.J. Garcia-Luna-Aceves.
 <i>IFIP NETWORKING 2019.</i>
 
