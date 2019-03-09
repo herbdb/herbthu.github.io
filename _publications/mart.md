@@ -3,7 +3,7 @@ title: "Towards Tile Based Distribution Simulation in Immersive Video Streaming"
 collection: publications
 permalink: /publications/mart
 venue: "IFIP NETWORKING 2019"
-date: 2019-5
+date: 2019-5-20
 citation: 'Dongbiao He, Jinlei Jiang, Guangwen Yang, Cedric Westphal and J.J. Garcia-Luna-Aceves. Towards Tile Based Distribution Simulation in Immersive Video Streaming. IFIP NETWORKING 2019'
 ---
 
