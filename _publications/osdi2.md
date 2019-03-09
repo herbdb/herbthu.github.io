@@ -1,7 +1,7 @@
 ---
 title: "NVM Allocator in Disaggregation Era"
-collection: publication
-permalink: /publication/osdi2
+collection: publications
+permalink: /publications/osdi2
 venue: "USENIX OSDI"
 date: 2018-10
 citation: 'Teng Ma, MingXing Zhang, Dongbiao He, Kang Chen, Yongwei Wu, NVM Allocator in Disaggregation Era, USENIX OSDI 2018 Poster'

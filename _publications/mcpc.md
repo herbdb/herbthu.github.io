@@ -1,7 +1,7 @@
 ---
 title: "MCPC: Improving In-network Caching by Network Partition"
-collection: publication
-permalink: /publication/mcpc
+collection: publications
+permalink: /publications/mcpc
 venue: "IEEE ICPADS"
 date: 2019-12-11
 citation: 'Dongbiao He, Jinlei Jiang, Guangwen Yang, Cedric Westphal. MCPC: Improving In-network Caching by Network Partition. Proceedings of International Conference on Parallel and Distributed Systems. IEEE, 2018 '

@@ -9,22 +9,26 @@ author_profile: true
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal and J.J. Garcia-Luna-Aceves.
 <i>IFIP NETWORKING 2019.</i>
 
-<b>[MCPC: Improving In-network Caching by Network Partition]</b> <br>
+<b>[MCPC: Improving In-network Caching by Network Partition](https://herbdb.github.io/herbthu.github.io/publication/mcpc)</b> <br>
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal. <i>IEEE ICPADS 2018.</i>
 
-<b>[Understanding the Effectiveness of Lipschitz-Continuity in Generative Adversarial Nets](http://lantaoyu.com/publications/GanGradient)</b> <br>
+<b>[CODA: Achieving Multipath Data Transmission in NDN](https://herbdb.github.io/herbthu.github.io/publication/coda)</b> <br>
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal.
 <i>IEEE IPCCC 2018.</i>
 
-<b>[RankRoute: Efficient Interests Forwarding by Nodes Ranking]</b> <br>
+<b>[Joint Rate and FoV adaptation in immersive video streaming](https://herbdb.github.io/herbthu.github.io/publication/sigar)</b> <br>
+<b>Dongbiao He</b>, Cedric Westphal and J.J. Garcia-Luna-Aceves.
+<i>ACM SIGCOMM Workshop on AR/VR Network 2019.</i>
+
+<b>[RankRoute: Efficient Interests Forwarding by Nodes Ranking](https://herbdb.github.io/herbthu.github.io/publication/rankroute)</b> <br>
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal
 <i>IEEE ICNC 2019</i>. 
 
-<b>[Fast VM Migration in Edge Cloud: A VM Slicing and Caching Approach]</b><br>
+<b>[Fast VM Migration in Edge Cloud: A VM Slicing and Caching Approach](https://herbdb.github.io/herbthu.github.io/publication/osdi1)</b><br>
 <b>Dongbiao He</b>, Teng Ma, Jinlei Jiang, Guangwen Yang.
 <i>USENIX OSDI 2019</i> <b>POSTER</b> 
 
-<b>[NVM Allocator in Disaggregation Era]</b><br>
+<b>[NVM Allocator in Disaggregation Era](https://herbdb.github.io/herbthu.github.io/publication/osdi2)</b><br>
 Teng Ma, MingXing Zhang, <b>Dongbiao He</b>, Kang Chen, Yongwei Wu.
 <i>USENIX OSDI 2019</i> <b>POSTER</b> 
 

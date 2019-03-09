@@ -1,7 +1,7 @@
 ---
 title: "Coda: Achieving Multipath Data Transmission in NDN"
-collection: publication
-permalink: /publication/coda
+collection: publications
+permalink: /publications/coda
 venue: "IEEE IPCCC"
 date: 2018-8-24
 citation: 'Dongbiao He, Jinlei Jiang, Guangwen Yang, Cedric Westphal. Coda: Achieving Multipath Data Transmission in NDN. Proceedings of IPCCC. IEEE, 2018'

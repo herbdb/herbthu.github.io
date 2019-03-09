@@ -1,6 +1,6 @@
 ---
 title: "Towards Tile Based Distribution Simulation in Immersive Video Streaming"
-collection: publication
+collection: publications
 permalink: /publications/mart
 venue: "IFIP NETWORKING 2019"
 date: 2019-5

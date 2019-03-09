@@ -1,7 +1,7 @@
 ---
 title: "RankRoute: Efficient Interests Forwarding by Nodes Ranking"
-collection: publication
-permalink: /publication/rankroute
+collection: publications
+permalink: /publications/rankroute
 venue: "IEEE ICNC"
 date: 2019-02
 citation: 'Dongbiao He, Cedric Westphal, and J.J. Garcia-Luna-Aceves. 2018. Joint Rate and FoV adaptation in immersive video streaming. In SIGCOMM Workshop on AR/VR Network, August 24, 2018, Budapest, Hungary'
