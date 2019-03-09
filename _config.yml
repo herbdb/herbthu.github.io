@@ -85,7 +85,7 @@ author:
   bio              : "Phd Student, Tsinghua University"
   location         : "Beijing"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.hk/citations?user=Z5kvZbEAAAAJ&hl=en"
   email            : "hdb13@mails.tsinghua.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
