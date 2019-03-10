@@ -20,6 +20,7 @@ redirect_from:
 * Feb, 2019. One paper accepted to IFIP NETWORKING 2019.
 * Nov, 2018, won the First Prize of RenminWang Scholarship in Technical Subjects. 
 * Oct, 2018, won the First Prize in The Sixth Student RDMA Programming Competition. 
-* Sep, 2018, one paper accepted to IEEE ICPADS 2019. 
-* Sep, 2018, one paper accepted to IEEE IPCCC 2019.
-* May, 2018, one paper accepted to SIGCOMM Workshop on VR/AR Network 2019.
+* Oct, 2018, Two posters would be shown in USENIX OSDI 2018.
+* Sep, 2018, one paper accepted to IEEE ICPADS 2018. 
+* Sep, 2018, one paper accepted to IEEE IPCCC 2018.
+* May, 2018, one paper accepted to ACM SIGCOMM Workshop on VR/AR Network 2018.
