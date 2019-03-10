@@ -17,4 +17,9 @@ redirect_from:
 * My research interests lie in the general area of Multimedia Networks, In-network Caching, Cloud Computing and Distributed Systems.
 
 # Recent News
-* Feb, 2019. One [paper](https://networking.ifip.org/2019/) accepted to NETWORKING 2019.
+* Feb, 2019. One paper accepted to IFIP NETWORKING 2019.
+* Nov, 2018, won the First Prize of RenminWang Scholarship in Technical Subjects. 
+* Oct, 2018, won the First Prize in The Sixth Student RDMA Programming Competition. 
+* Sep, 2018, one paper accepted to IEEE ICPADS 2019. 
+* Sep, 2018, one paper accepted to IEEE IPCCC 2019.
+* May, 2018, one paper accepted to SIGCOMM Workshop on VR/AR Network 2019.
