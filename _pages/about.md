@@ -23,4 +23,6 @@ redirect_from:
 * Oct, 2018, Two posters would be shown in USENIX OSDI 2018.
 * Sep, 2018, one paper accepted to IEEE ICPADS 2018. 
 * Sep, 2018, one paper accepted to IEEE IPCCC 2018.
+* Aug, 2018, participation in SIGCOMM 2018 and VR/AR workshop.
 * May, 2018, one paper accepted to ACM SIGCOMM Workshop on VR/AR Network 2018.
+* Mar, 2018, participation in NSDI 2018
