@@ -11,7 +11,7 @@ location: "CA and Beijing"
 360-degree video stream has the problems of unnecessary data transmission and high quality QoE requirement in the AR/VR network field. The project aims to predict immersive video user behavior information and select appropriate video content based on network delay estimation as well as adjusting video bit rate.
 
 <p align="center">
-  <img src="https://herbdb.github.io/images/arch.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
+  <img src="https://herbdb.github.io/images/arch2.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
 
 # Insights
