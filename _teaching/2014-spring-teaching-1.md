@@ -1,10 +1,10 @@
 ---
 title: "Cloud/Edge computing support Infrastructure Development"
 collection: teaching
-type: "Cloud Computer"
+type: "Cloud Computing"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Tsinghua University"
-date: 2014
+date: 2014-09-01
 location: "Beijing, China"
 ---
 
