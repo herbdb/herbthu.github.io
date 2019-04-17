@@ -2,7 +2,7 @@
 title: "Cloud/Edge computing support Infrastructure Development"
 collection: projects
 type: "Cloud Computing"
-permalink: /projects/2014-spring-teaching-1
+permalink: /projects/humilis
 venue: "Tsinghua University"
 date: 2014-09-01
 location: "Beijing, China"
@@ -14,7 +14,7 @@ In this project, we developed a lightweight virtual cluster management system, n
   <img src="https://herbdb.github.io/images/arch.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
 
-# Insights
+# Key points
 * Support self-defined software installation and KVM/LXC on-line migration;
 * Support Data Deduplication Storage for VM images;
 * A Cache manage plane for coordianting VM image blocks distribution and fast migration in WAN.

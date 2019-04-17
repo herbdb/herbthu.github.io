@@ -2,9 +2,9 @@
 title: "Network Optimizations for 360-degree Video Streaming"
 collection: projects
 type: "Multimedia System"
-permalink: /projects/2015-spring-teaching-1
+permalink: /projects/cubist
 venue: "UCSC and THU"
-date: 2015-01-01
+date: 2018-9-01
 location: "CA and Beijing"
 ---
 
@@ -14,7 +14,7 @@ location: "CA and Beijing"
   <img src="https://herbdb.github.io/images/arch2.jpg?raw=true" alt="Photo" style="width: 450px;"/> 
 </p>
 
-# Insights
+# Key points
 * Combining the network delay, we adjust the bit rate and the user's field of view adaptively;
 * A user behavior simulation tool based on Markov model and Beta distribution is implemented;
 * A hierachical cache system design for prefetch tiles in high-performace storage and cache the videos in cost-effective storage.  
