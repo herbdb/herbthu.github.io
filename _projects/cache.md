@@ -8,7 +8,7 @@ date: 2016-9-01
 location: "Beijing, China"
 ---
 
-In content distribution and 5G wireless networks, in-network caching has become an important solution for efficient data transmission in  using network resources. Based on the acquisition of transport protocol features (e.g., TCP / IP, ICN, etc.), this project obtains cache metrics and proposes distributed content placement strategies for supporting network cache architecture.
+In content distribution and 5G wireless networks, in-network caching has become an important solution for efficient data transmission in  using network resources. Based on the acquisition of transport protocol features (e.g., TCP/IP, ICN, etc.), this project obtains cache metrics and proposes distributed content placement strategies for supporting network cache architecture.
 
 
 
