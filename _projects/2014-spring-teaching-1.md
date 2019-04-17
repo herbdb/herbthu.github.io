@@ -1,8 +1,8 @@
 ---
 title: "Cloud/Edge computing support Infrastructure Development"
-collection: teaching
+collection: projects
 type: "Cloud Computing"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /projects/2014-spring-teaching-1
 venue: "Tsinghua University"
 date: 2014-09-01
 location: "Beijing, China"

@@ -1,8 +1,8 @@
 ---
 title: "Network Optimizations for 360-degree Video Streaming"
-collection: teaching
+collection: projects
 type: "Multimedia System"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /projects/2015-spring-teaching-1
 venue: "UCSC and THU"
 date: 2015-01-01
 location: "CA and Beijing"
