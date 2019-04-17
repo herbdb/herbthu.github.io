@@ -4,7 +4,7 @@ collection: projects
 type: "Multimedia System"
 permalink: /projects/cubist
 venue: "UCSC and THU"
-date: 2018-9-01
+date: 2017-9-01
 location: "CA and Beijing"
 ---
 
