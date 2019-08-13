@@ -18,7 +18,7 @@ redirect_from:
 
 # Recent News
 * Aug, 2019, I will attend to the conference of ACM SIGCOMM 2019 ! 
-* May, 2018, participation in IFIP NETWORKING 2019.
+* May, 2019, participation in IFIP NETWORKING 2019.
 * Feb, 2019, one paper accepted to IFIP NETWORKING 2019.
 * Nov, 2018, won the First Prize of RenminWang Scholarship in Technical Subjects. 
 * Oct, 2018, won the First Prize in The Sixth Student RDMA Programming Competition. 
