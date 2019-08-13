@@ -21,8 +21,8 @@ Education
 Work experience
 ======
 *2017.11-2018.5: Research Assistant
-  * The University of California, Santa Cruz
+  * University of California, Santa Cruz
   * Duties included: AR/VR Network Communication
-  * Supervisor: Cedric Westphal
+  * Supervisor: Cedric Westphal, JJ
 
   

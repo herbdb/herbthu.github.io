@@ -17,12 +17,14 @@ redirect_from:
 * My research interests lie in the general area of Multimedia Systems, Cloud Computing and Distributed Systems.
 
 # Recent News
+* Aug, 2019, I will attend to the conference of ACM SIGCOMM 2019 ! 
+* May, 2018, participation in IFIP NETWORKING 2019.
 * Feb, 2019, one paper accepted to IFIP NETWORKING 2019.
 * Nov, 2018, won the First Prize of RenminWang Scholarship in Technical Subjects. 
 * Oct, 2018, won the First Prize in The Sixth Student RDMA Programming Competition. 
 * Oct, 2018, two posters would be shown in USENIX OSDI 2018.
 * Sep, 2018, one paper accepted to IEEE ICPADS 2018. 
 * Sep, 2018, one paper accepted to IEEE IPCCC 2018.
-* Aug, 2018, participation in SIGCOMM 2018 and VR/AR workshop.
+* Aug, 2018, participation in ACM  SIGCOMM 2018 and VR/AR workshop.
 * May, 2018, one paper accepted to ACM SIGCOMM Workshop on VR/AR Network 2018.
 * Apr, 2018, participation in NSDI 2018
