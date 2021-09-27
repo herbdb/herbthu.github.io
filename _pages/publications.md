@@ -3,7 +3,9 @@ title: "Publications [(Google Scholar Profile)](https://scholar.google.com.hk/ci
 permalink: /publications/
 author_profile: true
 ---
-
+<b>[CUBIST: High-Quality 360-Degree Video Streaming Services via Tile-based Edge Caching and FoV-Adaptive Prefetching](https://herbdb.github.io/publications/coda)</b> <br>
+<b>Dongbiao He</b>, Teng Ma, Jinlei Jiang, Cedric Westphal, Guangwen Yang, Shutao Xia and Jose Garcia-Luna-Aceves.
+<i>IEEE ICWS 2021.</i>
 
 <b>[Towards Tile Based Distribution Simulation in Immersive Video Streaming](https://herbdb.github.io/publications/mart)</b> <br>
 <b>Dongbiao He</b>, Jinlei Jiang, Guangwen Yang, Cedric Westphal and J.J. Garcia-Luna-Aceves.
