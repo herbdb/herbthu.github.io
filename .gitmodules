@@ -1,3 +1,5 @@
 [submodule "herb-page/herb-page/themes/avicenna"]
     path = herb-page/herb-page/themes/avicenna
-    url = git://herbdb.github.io
+    url = git@github.com:herbdb/herbdb.github.io.git
+
+
