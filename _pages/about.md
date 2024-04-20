@@ -17,6 +17,7 @@ redirect_from:
 * My research interests lie in the general area of WAN technolgies, Cloud/Edge Computing and Distributed Systems.
 
 # Recent News
+* Apr, 2024, one paper acceted to ACM NOSSDAV 2024, and one paper acceted to IEEE ICDCS 2024
 * Aug, 2019, I will attend to the conference of ACM SIGCOMM 2019 ! 
 * May, 2019, participation in IFIP NETWORKING 2019.
 * Feb, 2019, one paper accepted to IFIP NETWORKING 2019.
