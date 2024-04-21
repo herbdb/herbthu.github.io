@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://magsther.github.io/sitemap.xml

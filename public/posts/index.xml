@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on YOUR_NAME</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on YOUR_NAME</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jun 2023 12:00:17 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Pages &#43; Hugo</title>
+      <link>http://localhost:1313/posts/gh_hugo/</link>
+      <pubDate>Sun, 18 Jun 2023 12:00:17 +0200</pubDate>
+      <guid>http://localhost:1313/posts/gh_hugo/</guid>
+      <description>Introduction In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.&#xA;This is an update from an earlier post I wrote on my Medium blog -&amp;gt; &amp;ldquo;Hugo in 10 Minutes&amp;rdquo;&#xA;Prerequisites A GitHub account&#xA;Hugo&#xA;GitHub Pages GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</description>
+    </item>
+  </channel>
+</rss>

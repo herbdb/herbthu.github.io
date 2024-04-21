@@ -1,7 +1,7 @@
 baseURL: "https://magsther.github.io/"
-title: O11y Cloud.com
+title: hedongbiao.com
 paginate: 5
-theme: PaperMod
+theme: avicenna
 publishDir: "docs"
 
 enableRobotsTXT: true

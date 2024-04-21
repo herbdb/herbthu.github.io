@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+JP&family=Cormorant+Garamond&family=Libre+Baskerville&family=Source+Serif+Pro&family=Crimson+Text&family=Inter&family=Crimson+Pro&family=Literata&family=Ubuntu+Mono&family=Inter&family=Roboto">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    
+    
+
+    <title>YOUR_NAME | GitHub Pages &#43; Hugo</title>
+
+
+    
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA%2fG-123123-12"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA\/G-123123-12');
+        }
+      </script>
+    
+  
+
+
+
+</head><body class="container d-flex flex-column min-vh-100">
+
+<div class="blog_nav_bar secondary_font ">
+    
+    
+    <a class="navbar-brand" href="/">about</a>
+    
+    
+    
+    <a class="navbar-brand" href="/blog">« all posts</a>
+    
+    
+</div>
+
+
+
+<h3>
+    <a class="title" href="/posts/gh_hugo/">GitHub Pages &#43; Hugo</a>
+</h3>
+
+<div class="reading_time secondary_font text-muted ">
+    <span>
+        Jun 18 2023 · 7 min read
+    </span>
+
+</div>
+
+
+
+
+
+<h3 id="introduction">Introduction</h3>
+<p>In this post we will create a website using Hugo and host it as a GitHub Pages project and automate the whole process with Github Actions.</p>
+<p>This is an update from an earlier post I wrote on my Medium blog -&gt; <a href="https://medium.com/@magstherdev/hugo-in-10-minutes-2dc4ac70ee11">&ldquo;Hugo in 10 Minutes&rdquo;</a></p>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>A <a href="https://github.com">GitHub account</a></p>
+<p><a href="https://gohugo.io/installation/">Hugo</a></p>
+<h3 id="github-pages">GitHub Pages</h3>
+<p><em><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a> is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</em></p>
+<p>In addition to that, it&rsquo;s also free.</p>
+<p>The requirements for using GitHub pages in our case are:</p>
+<ul>
+<li>
+<p>To publish a user site, you must create a repository owned by your personal account that&rsquo;s named <code>&lt;username&gt;.github.io</code>.</p>
+</li>
+<li>
+<p>The source files for a project site are stored in the same repository as their project.</p>
+</li>
+<li>
+<p>You can only create one user or organization site for each account on GitHub.</p>
+</li>
+</ul>
+<p>There are also some limitations outlined <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits">here</a>.</p>
+<p>GitHub provides a good <a href="https://docs.github.com/en/pages/quickstart">quick-start</a>, so I won&rsquo;t go much in detail about that.
+It usually comes down to these steps:</p>
+<ol>
+<li>Create a repository and name it <code>username.github.io</code> as the repository name. (In my case, it will be <code>magsther.github.io</code>) The website will be published at <a href="https://magsther.github.io/">https://magsther.github.io/</a></li>
+<li>Clone the repository to your computer.</li>
+<li>Cd into the folder</li>
+<li>Add an index.html</li>
+<li>Add, commit, and push your changes</li>
+<li>Enable and configure Pages (in GitHub)</li>
+</ol>
+<p>After a little while, you can visitusername.github.io to view your new website. </p>
+<p>Next step is to setup a GitHub Pages site with <code>Hugo</code>.</p>
+<h3 id="hugo">Hugo</h3>
+<p><a href="https://gohugo.io/about/what-is-hugo/">Hugo</a> is a fast and modern static site generator written in Go, and designed to make website creation fun again. It is a popular static site generator, designed to provide an optimal viewing experience for your website&rsquo;s end users and an ideal writing experience for website authors.</p>
+<blockquote>
+<p>A <a href="https://www.cloudflare.com/en-gb/learning/performance/static-site-generator/">static site generator</a> is a tool that generates a full static HTML website based on raw data and a set of templates.</p>
+</blockquote>
+<p>Hugo works on macOS, Linux, Windows and you can follow the installation instructions for your platform <a href="https://gohugo.io/installation/">here</a>.
+Once the installation is done, we can just go through the <a href="https://gohugo.io/getting-started/quick-start/">Quick-start</a> guide, which more or less comes down to this:</p>
+<p>These are the steps that we will do:</p>
+<ol>
+<li>Create a Hugo project (site)</li>
+<li>Choose a theme</li>
+<li>Install and configure the theme</li>
+<li>Customising the theme</li>
+<li>Add content by creating a post</li>
+<li>Run Hugo</li>
+</ol>
+<h3 id="creating-a-hugo-project-site">Creating a Hugo Project (Site)</h3>
+<p>Start by cloning your repository to your computer.</p>
+<p><code>git clone git@github.com:magsther/magsther.github.io.git</code></p>
+<p>Cd into the folder and run the following command:
+<code>hugo new site o11ycloud -f yml # creates the directory structure for your project</code></p>
+<pre tabindex="0"><code>Just a few more steps and you&#39;re ready to go:
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the &#34;hugo new theme &lt;THEMENAME&gt;&#34; command.
+2. Perhaps you want to add some content. You can add single files
+   with &#34;hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;.
+3. Start the built-in live server via &#34;hugo server&#34;.
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+</code></pre><p>Now we need to add a <a href="https://themes.gohugo.io/">theme</a> to your Hugo site, which is what we will do next.</p>
+<h3 id="themes">Themes</h3>
+<p>Hugo provides a list of <a href="https://themes.gohugo.io/">themes</a> that you can use for your new website. If you are familiar with Wordpress then you will know how useful this is. Let&rsquo;s first to go the themes page and select a theme that you like.</p>
+<p>I like the <a href="https://themes.gohugo.io/themes/hugo-papermod/">PaperMod</a> theme, so I&rsquo;ll use that one. </p>
+<h3 id="installing-a-theme">Installing a Theme</h3>
+<p>Follow the <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Installation">instructions</a> for the theme on how to install it. You can also watch a <a href="https://www.youtube.com/playlist?list=PLeiDFxcsdhUrzkK5Jg9IZyiTsIMvXxKZP">YouTube video</a> where the author will guide you through the process.</p>
+<p>When you select a theme it will give you instructions about the installation and configuration for that particular theme.
+I cloned the repository and copied the PaperMod themes folder into the root themes folder
+<code>git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1</code></p>
+<p>I also replaced the config.yml file (in the root module) and made some changes to it.</p>
+<pre tabindex="0"><code>baseURL: &#34;http://magsther.github.io/&#34;
+title: O11yCloud.com
+paginate: 5
+theme: PaperMod
+...
+....
+</code></pre><h3 id="run-hugo">Run Hugo</h3>
+<p>To view the website locally, we can use Hugo&rsquo;s development server. Just type in hugo server at the prompt, and it will start building the website. At the bottom of the output we can find a link on how we can access the website.</p>
+<pre tabindex="0"><code>Start building sites …
+
+                   | EN
+-------------------+-----
+  Pages            |  7
+  Paginator pages  |  0
+  Non-page files   |  0
+  Static files     |  0
+  Processed images |  0
+  Aliases          |  1
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Built in 32 ms
+
+Environment: &#34;development&#34;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre><p>Open a browser and go to http://localhost:1313</p>
+<h3 id="making-changes-on-thefly">Making changes on the &ldquo;fly&rdquo;</h3>
+<p>If you open a new terminal and modify some of the content in the config.yml file you will notice that website is updated automatically.</p>
+<p>This happened, because the Hugo process was still running in the other terminal and will build any changes that you make. </p>
+<pre tabindex="0"><code>Change of config file detected, rebuilding site.
+2023-06-11 23:15:55.936 +0200
+Rebuilt in 63 ms
+</code></pre><p>Tips, if you run <code>hugo server -D</code> then it will also included any posts that are in &ldquo;draft&rdquo; mode.</p>
+<h3 id="adding-content">Adding content</h3>
+<p>To add content to your website, I first added a post.md file that was provided in the repository to the archtypes folder. You can think of that file as a template for all future posts. To create a new post, I typed in <code>hugo new posts/example.md</code></p>
+<p>This added an example.md file in the content folder.
+You can now open this file with your editor to create your blog post.
+If the Hugo process is still running and you are using the <code>-D </code>flag, then you will see that a new blog post is now added to your website.</p>
+<p>Once you are done with the changes to your post, you can change draft: true to draft: false to have it deployed. This is depending on the theme you are using. If you are using the default theme, then Hugo does not publish draft content when you build the site
+This should give you an understanding on how to create new blog posts.</p>
+<h3 id="customizing-hugo">Customizing Hugo</h3>
+<p>To further customize your new blog, just play around with the configuration file called config.yml located in the root folder.
+The first things that you probably want to change are the baseURL, title and the theme</p>
+<pre tabindex="0"><code>baseURL: &#34;https://magsther.github.io/&#34; #This value must begin with the protocol and end with a slash, as shown above.
+title: O11y Cloud.com
+paginate: 5
+theme: PaperMod
+</code></pre><h3 id="publish-your-blog-to-githubpages">Publish your blog to GitHub Pages</h3>
+<p>When you are happy with how the website works on the local environment you can decide on how you want to host it. Here, we want to publish the blog to GitHub Pages. </p>
+<p>To do that, we need to run hugo to generate the blog. That will create a docs folder that you will need to add an entry for in the config.yml file for.</p>
+<p>After that, we add, commit and push them to the GitHub repository.</p>
+<p><code>git add . &amp;&amp; git commit -m 'new hugo blog' -a &amp;&amp; git push</code></p>
+<p>Next, we need to enable GitHub Pages, which we can do by going to our GitHub repository and from there click on <code>Pages</code>. Enable it by changing the <code>Source</code> from <code>None</code> to <code>Deploy from a branch</code></p>
+<p>Save your changes.
+After a short while, you will see that your blog is now published at <a href="https://username.github.io">https://username.github.io</a></p>
+<h3 id="github-actions">GitHub Actions</h3>
+<p>You may have noticed that a workflow was created for you in GitHub Actions.</p>
+<p>If you click on the workflow, you can see a summary of the jobs that are part of this workflow.</p>
+<p>In the future, whenever you push a change from your local repository, GitHub will rebuild your site and deploy the changes.</p>
+<h3 id="updating-yourblog">Updating your blog</h3>
+<p>To add a new post and publish it on your website, you can follow this workflow:</p>
+<ol>
+<li>create a new post with <code>hugo new posts/example2.md</code></li>
+<li>build the site with <code>hugo</code></li>
+<li>Add, commit and push the changes to GitHub <code>git add . &amp;&amp; git commit -m 'creating my second post' -a &amp;&amp; git push</code></li>
+<li>Watch the workflow in GitHub Actions</li>
+<li>New posts are published at <a href="https://username.github.io">https://username.github.io</a></li>
+</ol>
+<h3 id="conclusion">Conclusion</h3>
+<p>In this post, we looked at Hugo; how to create a blog and how to publish it to GitHub Pages. In the next post, we will use GitHub Pages with a custom domain name.</p>
+
+
+<footer class="mt-auto d-flex justify-content-center text-muted small secondary_font">
+    <span class="text-muted">Copyright (c) 2024, YOUR_NAME,
+        <a class="text-muted" href="https://github.com/hadisinaee/avicenna" target="_blank"> created by Avicenna
+            (MIT)</a>
+    </span>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"></script>
+<script>
+    feather.replace()
+</script></body>
+
+</html>
