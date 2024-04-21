@@ -1,7 +1,7 @@
-baseURL: "https://magsther.github.io/"
+baseURL: "https://hedongbiao.com/"
 title: hedongbiao.com
 paginate: 5
-theme: avicenna
+theme: PaperMod
 publishDir: "docs"
 
 enableRobotsTXT: true
@@ -17,8 +17,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: O11y Cloud.com
-  description: "Welcome to O11yCloud.com"
+  title: Herb page
+  description: "Welcome to herbert.com"
   keywords: [Blog, Portfolio, Observability]
   author: Me
   # author: ["Me", "You"] # multiple authors
